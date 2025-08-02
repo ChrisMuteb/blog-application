@@ -63,3 +63,11 @@
 2025-08-02 20:51:44.971 [main] INFO  c.s.blogApplication.BlogApplication      : Started BlogApplication in 2.009 seconds (process running for 2.387)
 2025-08-02 20:51:44.973 [main] INFO  c.s.b.DatabaseConnectionVerifier         : Attempting to connect to the configured H2 database...
 2025-08-02 20:51:44.974 [main] INFO  c.s.b.DatabaseConnectionVerifier         : Successfully established a connection to the database!
+2025-08-02 20:56:28.951 [http-nio-8081-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-02 20:56:28.955 [http-nio-8081-exec-6] INFO  o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-02 20:56:28.967 [http-nio-8081-exec-6] INFO  o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2025-08-02 22:30:31.456 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m16s619ms).
+2025-08-02 23:08:24.588 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m53s148ms).
+2025-08-02 23:39:43.041 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m18s460ms).
+2025-08-02 23:42:27.030 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s985ms).
+2025-08-02 23:57:56.804 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s611ms), soft-evicting connections from pool.
